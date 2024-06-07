@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 
 const courseSchema = mongoose.Schema({
-    id: String,
     title: String,
     description: String,
     category: String,
@@ -9,7 +8,10 @@ const courseSchema = mongoose.Schema({
     duration: String,
     language: String,
     instructor: String,
-    thumbnail: String
+    thumbnail: String,
+    price: String,
+    enrolledStudents: String,
+    launchedOn:  String
 })
 
 const courseModel = mongoose.model('course', courseSchema)

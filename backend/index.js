@@ -7,9 +7,11 @@ app.use(express.json())
 require('dotenv').config()
 const {userRouter} = require('./routes/user.route')
 const { teacherRouter } = require('./routes/teacher.route')
+const { courseRouter } = require('./routes/course.route')
 
 app.use('/user', userRouter)
 app.use('/teacher', teacherRouter)
+app.use('/courses', courseRouter)
 
 app.listen(process.env.PORT, async()=> {
     try {
