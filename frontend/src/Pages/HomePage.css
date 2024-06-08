@@ -1,0 +1,160 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+  }
+
+  .image{
+    width: 350px;
+    margin-bottom: -5px;
+  }
+  
+  .hero-content {
+    width: 45%;
+    text-align: left;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #e0e0e0;
+  }
+  
+  .stats-content {
+    max-width: 50%;
+  }
+  
+  .stats h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .stats-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .experts {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .expert-card {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .expert-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .courses {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .course-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .course-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #d0d0d0;
+    text-align: left;
+  }
+  
+  .all-courses {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  .signup {
+    padding: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signup-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .signup-form button {
+    padding: 10px 20px;
+  }
+  
+  .footer {
+    padding: 50px;
+    background-color: #d0d0d0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    max-width: 20%;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-credit {
+    text-align: center;
+  }
+  

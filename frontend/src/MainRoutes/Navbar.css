@@ -1,0 +1,14 @@
+#nav-div{
+    background-color: rgb(0, 42, 192);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

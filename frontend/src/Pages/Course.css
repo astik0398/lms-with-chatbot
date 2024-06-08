@@ -1,0 +1,4 @@
+#course-card:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
