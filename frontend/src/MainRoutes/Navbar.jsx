@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div id='nav-div'>
       <div style={{display:'flex', gap:'50px'}}>
-      <Link className='link' to={'/homepage'}>HOME</Link>
+      <Link className='link' to={'/'}>HOME</Link>
       <Link className='link' to={'/course'}>COURSES</Link>
       <Link className='link' to={'/mycourses'}>MY COURSES</Link>
       </div>
