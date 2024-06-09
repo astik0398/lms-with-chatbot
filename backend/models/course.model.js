@@ -11,7 +11,9 @@ const courseSchema = mongoose.Schema({
     thumbnail: String,
     price: String,
     enrolledStudents: String,
-    launchedOn:  String
+    launchedOn:  String,
+    totalReviews: String,
+    rating: String
 })
 
 const courseModel = mongoose.model('course', courseSchema)
