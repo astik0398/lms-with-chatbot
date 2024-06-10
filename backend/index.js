@@ -127,7 +127,7 @@ async function runChat(userInput) {
       console.error('Error in chat endpoint:', error);
       res.status(500).json({ error: 'Internal Server Error' });
     }
-  });
+  })
   
 app.listen(process.env.PORT, async()=> {
     try {
