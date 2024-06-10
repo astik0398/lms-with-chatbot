@@ -17,6 +17,20 @@ Students can enroll in courses and access associated course materials.
 
 Utilizing the OpenAI API, the chatbot efficiently responds to queries related to the available courses.
 
+## Screenshots
+
+1. HOMEPAGE
+![alt text](<Screenshot (1315).png>)
+
+2. COURSE PAGE
+![alt text](<Screenshot (1316).png>)
+
+3. SIGNUP PAGE
+![alt text](<Screenshot (1317).png>)
+
+4. CHATBOT
+![alt text](<Screenshot (1318).png>)
+
 ## Technical Requirements
 
 `Frontend:`
