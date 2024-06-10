@@ -4,6 +4,7 @@ import '../MainRoutes/Navbar.css'
 import { Avatar, Button, Text } from '@chakra-ui/react'
 import { useSelector } from 'react-redux'
 import { store } from '../Redux/store'
+import logo from '../Edu_Junction_Logo-removebg-preview.png'
 
 const Navbar = () => {
 
@@ -12,7 +13,8 @@ const Navbar = () => {
   
   return (
     <div id='nav-div'>
-      <div style={{display:'flex', gap:'50px'}}>
+      <Link to={'/'}><img style={{width:'200px'}} src={logo} alt="" /></Link>
+      <div style={{display:'flex', gap:'150px'}}>
       <Link className='link' to={'/'}>HOME</Link>
       <Link className='link' to={'/course'}>COURSES</Link>
       <Link className='link' to={'/mycourses'}>MY COURSES</Link>
